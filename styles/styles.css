@@ -1,3 +1,10 @@
+/* Aplicar box-sizing para controlar el modelo de cajas */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.8;
@@ -87,36 +94,36 @@ nav a:hover {
 }
 
 .image-container {
-    margin-right: 15px; 
-    background-color: #cce5ff; 
-    padding: 10px; 
-    border-radius: 8px; 
+    margin-right: 15px;
+    background-color: #cce5ff;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 .flex-container img {
-    width: 250px; 
-    height: auto; 
+    width: 250px;
+    height: auto;
 }
 
 .flex-container.reverse {
-    flex-direction: row-reverse; 
+    flex-direction: row-reverse;
 }
 
 .social-media {
-    text-align: center; 
-    margin-top: 30px; 
+    text-align: center;
+    margin-top: 30px;
 }
 
 .social-links a {
-    padding: 15px; 
-    font-size: 30px; 
+    padding: 15px;
+    font-size: 30px;
     color: #fff;
-    background-color: #00509e; 
-    border-radius: 50%; 
+    background-color: #00509e;
+    border-radius: 50%;
     margin-right: 10px;
-    transition: background-color 0.3s ease; 
+    transition: background-color 0.3s ease;
 }
 
-.social-links a:hover {
-    background-color: #007bff; 
+social-links a:hover {
+    background-color: #007bff;
 }
