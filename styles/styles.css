@@ -94,8 +94,9 @@ nav a:hover {
 }
 
 .flex-container img {
-    width: 250px; 
-    height: auto; 
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
 }
 
 .flex-container.reverse {
@@ -167,6 +168,10 @@ nav a:hover {
           align-items: center;
           text-align: center; 
       }
+      .image-container {/*centramos el contenedor de imagen y ajustamos tambien el tamaño a celulares :)*/
+        width: 200%; 
+        margin-right: auto; 
+    }
 }
 @media (min-width: 600px) and (max-width: 1024px) {
    body {
